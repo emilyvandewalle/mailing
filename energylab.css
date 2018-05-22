@@ -164,8 +164,18 @@ button:hover {
 @media only screen and (max-width: 600px) {
     .wrapper3{
         display: inline-block;
+        margin: 0;
     }
 }
+
+.wrapper4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+
+}
+
+
 .details strong {
 	color: #efb456;
 	font-weight: bold;
